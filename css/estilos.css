@@ -1,49 +1,57 @@
 :root {
   --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha: #f06ce9;
+  --vermelha-escura: #ee3d9b;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
+  --azul-claro: #8cc6ed;
 }
 
 body {
+  padding: 5rem;
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background-image: url("../images/background.png"); 
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  min-height: 100vh;
+  height: auto;
 }
 
 h1 {
-  color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
+  color: var(--azul-claro);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  background-color: var(--branca);
+  padding: 0.2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
-  border-radius: 30px;
+  box-shadow: 4px 4px 0 6px #666, 10px 10px 10px #000;
+  border-radius: 1.8rem;
   display: grid;
-  gap: 10px;
+  gap: 0.625rem;
   grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
+  padding: 0.625rem;
+  margin-top: 2.5em;
 }
 
 .tecla {
   background-color: var(--branca);
-  border-radius: 30px;
+  border-radius: 1.875rem;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
-  height: 120px;
-  font-size: 1.75em;
-  font-weight: bold;
-  line-height: 120px;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 7.5rem;
   text-align: center;
-  width: 120px;
+  width: 12.5rem;
+  height: 9.3rem;
 }
 
 .tecla.ativa,
@@ -64,4 +72,19 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+
+.tecla_spotify {
+  display: flex;
+  background-color: var(--vermelha);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.tecla_spotify_img{
+  margin-bottom: 1rem;
+  width: 80%;
 }
