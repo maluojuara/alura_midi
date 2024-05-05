@@ -10,20 +10,14 @@
  <span> Alura Midi - Course JavaScript for Web: Create dynamic pages </span>
 </h1>
 
-<img width="1321" alt="alura_midi" src="https://github.com/maluojuara/alura_midi/assets/106565510/7bf015a5-37ce-414b-b027-7dac5252b257">
+<img width="1319" alt="midi-taylor" src="https://github.com/maluojuara/alura_midi/assets/106565510/29e9148b-023b-4680-aa50-18f0da546daf">
+
 
 This repository contains the files from the project Alura Midi, developed during my learning process at the course "JavaScript for Web: Create dynamic pages", from Alura. The course is part of the formation ["Develop web applications with JavaScript"](https://cursos.alura.com.br/formacao-javascript-front-end). 
 
+The objective of the course was to create the Alura MIDI application, a musical instrument with a digital interface that reproduces sounds from musical instruments, when the user clicks or presses the buttons on the keyboard. Each button clicked plays a different sound.
 
-
-
-
-
-
-
-
-
-The objective of the course is to produce a responsive web page, using the Mobile-First methodology, based on a previously provided [Figma layout.](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks-%7C-Responsividade-com-Mobile-First?type=design&node-id=37-94&mode=design&t=5jRiSn518BNMVV5j-0)
+In addition to making the [version suggested by the course](https://github.com/maluojuara/alura_midi/tree/alura_version), I customized the project and made my own version, with sounds that represent each era of Taylor Swift's career.
 
 ## 🛠️💻  Technologies and tools
 
@@ -34,7 +28,7 @@ The objective of the course is to produce a responsive web page, using the Mobil
 
 ***
 
-## 📚  Content  
+## 📚  Content and features
 
 <div align="left">
 
@@ -47,8 +41,26 @@ The objective of the course is to produce a responsive web page, using the Mobil
 |Events and logic |✅   
 
 
+✨ Application of querySelector;
+
+✨ Creation of a function that reproduces sounds stored in audio elements in HTML;
+
+✨ Allow the Alura Midi application to be controlled by buttons made through HTML and CSS;
+
+✨ Added sound playback via keyboard, using "Enter" or "Space";
+
+✨ Optimized code, with the aim of reducing code repetition.
+
+
 ***
 
 ## 📲  Demonstration
 
+https://github.com/maluojuara/alura_midi/assets/106565510/dde77212-59b0-4fb5-b253-9d8c97847711
 
+
+***
+
+## 🚀  Deploy
+
+https://maluojuara.github.io/alura_midi/ 
